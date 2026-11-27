@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="author" content="Dr. Renae Azziz">
+<title>T4 Practice Exams</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+:root {
+  --navy:#14294B; --teal:#1F7A8C; --aqua:#E8F4F6; --yellow:#F5C518; --ink:#16202E; --muted:#4F5D6E; --rule:#C9D6DD;
+  --bg:#FBFCFC; --paper:#FFFFFF; --on:#FFFFFF;
+  --serif:Caladea, Cambria, Georgia, serif; --sans:"Source Sans 3", "Segoe UI", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --navy:#A9C7E8; --teal:#62B7C8; --aqua:#1A3140; --ink:#E4EAF0; --muted:#A6B4C2; --rule:#33465C; --bg:#0F1826; --paper:#14202F; --on:#0F1826; }
+}
+* { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body { margin:0; font-family:var(--serif); color:var(--ink); background:var(--bg); font-size:17px; line-height:1.55; overflow-wrap:break-word; }
+header { border-bottom:3px solid var(--navy); }
+.wrap { max-width:680px; margin:0 auto; padding:0 16px; }
+header .wrap { padding-top:22px; padding-bottom:14px; }
+.kicker { font-family:var(--sans); font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--teal); margin:0 0 2px; }
+h1 { font-size:32px; margin:0; color:var(--navy); line-height:1.2; }
+h2 { font-size:20px; color:var(--navy); margin:0 0 10px; padding-bottom:4px; border-bottom:1px solid var(--rule); }
+main { padding:20px 0 28px; }
+p { margin:0 0 12px; }
+.purpose { font-size:18px; }
+.exams { display:grid; gap:10px; margin:18px 0 10px; }
+a.exam { display:flex; justify-content:space-between; align-items:center; gap:12px; text-decoration:none; background:var(--paper); border:1px solid var(--rule); border-left:4px solid var(--navy); border-radius:2px; padding:13px 16px; color:var(--ink); }
+a.exam:hover { background:var(--aqua); }
+a.exam:focus-visible, a:focus-visible { outline:3px solid var(--yellow); outline-offset:2px; }
+a.exam b { font-family:var(--sans); font-size:18px; font-weight:700; color:var(--navy); display:block; }
+a.exam span.sub { font-size:15px; color:var(--muted); }
+a.exam span.go { font-family:var(--sans); font-weight:700; font-size:15px; color:var(--on); background:var(--navy); border-radius:3px; padding:6px 12px; white-space:nowrap; }
+a.exam.final { border-left-color:var(--yellow); }
+.note { font-family:var(--sans); font-size:15px; color:var(--muted); }
+.note a, section a { color:var(--teal); font-weight:600; }
+section.sheet { background:var(--paper); border:1px solid var(--rule); border-radius:2px; padding:18px 20px; margin-top:22px; }
+section.sheet ul { margin:0; padding-left:20px; }
+section.sheet li { margin-bottom:8px; }
+footer { border-top:1px solid var(--rule); color:var(--muted); font-size:14px; text-align:center; padding:14px 16px 28px; }
+@media (max-width:600px) {
+  h1 { font-size:27px; }
+  a.exam { padding:12px; }
+  a.exam span.go { padding:6px 10px; }
+  section.sheet { padding:16px 14px; }
+}
+</style>
+</head>
+<body>
+<header><div class="wrap"><p class="kicker">SGU SVM &middot; Systems 4</p><h1>T4 Practice Exams</h1></div></header>
+<main class="wrap">
+  <p class="purpose">Timed, self-scoring practice exams that show you which weeks and lectures need more of your study time.</p>
+  <p class="note">Please read <a href="#before-you-start">Before you start</a> first.</p>
+  <nav class="exams" aria-label="Practice exams">
+    <a class="exam" href="module-1.html"><span><b>Module 1 FCM</b><span class="sub">Weeks 1-3 &middot; 60 questions &middot; 90 minutes</span></span><span class="go">Open</span></a>
+    <a class="exam" href="module-2.html"><span><b>Module 2 IIO</b><span class="sub">Weeks 4-7 &middot; 60 questions &middot; 90 minutes</span></span><span class="go">Open</span></a>
+    <a class="exam" href="module-3.html"><span><b>Module 3 CVR</b><span class="sub">Weeks 8-11 &middot; 60 questions &middot; 90 minutes</span></span><span class="go">Open</span></a>
+    <a class="exam" href="module-4.html"><span><b>Module 4 SSI</b><span class="sub">Weeks 12-15 &middot; 60 questions &middot; 90 minutes</span></span><span class="go">Open</span></a>
+    <a class="exam final" href="final.html"><span><b>Final Mock Exam</b><span class="sub">Weeks 1-15 &middot; 100 questions &middot; 120 minutes</span></span><span class="go">Open</span></a>
+  </nav>
+  <section class="sheet" id="before-you-start">
+    <h2>Before you start</h2>
+    <ul>
+      <li>These exams help you pinpoint where to spend more time fixing knowledge gaps.</li>
+      <li>The questions are AI generated from the lecture slides. Faculty are the experts and likely shared more in lecture than the slides show.</li>
+      <li>Review your class notes and talk with faculty about any topic you are unsure about.</li>
+      <li>Use this as one tool for planning your study time, not the only way you prepare for your final exam.</li>
+    </ul>
+  </section>
+  <p class="note" style="margin-top:18px">Questions? Email <a href="mailto:razziz@sgu.edu">razziz@sgu.edu</a></p>
+</main>
+<footer>Question design framework by Dr. R. Azziz, Board Review Strategist, SGU SVM. Study tool only.</footer>
+<script data-goatcounter="https://learningwithdra.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
